@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: light;
+}
+
+* {
+  font-family: 'Inter', sans-serif;
+}
+
+/* Floating icon animation */
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+.float-1 { animation: float 3s ease-in-out infinite; }
+.float-2 { animation: float 3.5s ease-in-out infinite 0.5s; }
+.float-3 { animation: float 4s ease-in-out infinite 1s; }
+.float-4 { animation: float 3.2s ease-in-out infinite 1.5s; }
+.float-5 { animation: float 3.8s ease-in-out infinite 0.8s; }
