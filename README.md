@@ -1,7 +1,7 @@
 <h1 align="center">Hero.IO — App Discovery Platform</h1>
 
 <p align="center">
-  <img src="src/assets/github_readme/Home.png alt="Hero.IO Preview" width="100%" />
+  <img src="src/assets/github_readme/Home.png" alt="Hero.IO Preview" width="100%" />
 </p>
 
 <p align="center">
